@@ -34,7 +34,7 @@ age5 = niftiread('age5_nomask.nii');
 age6 = niftiread('age6_nomask.nii');
 age7 = niftiread('age7_nomask.nii');
 
-% find all locatiosn where we have significance
+% find all locations where we have significance
 loc = find(gm > .5 & age1 > 0 & age2 > 0 & age3 > 0 & age4 > 0 & age5 > 0 & age6 > 0 & age7 > 0 & cage1 > 0 & cage2 > 0 & cage3 > 0 & cage4 > 0 & cage5 > 0 & cage6 > 0 & cage7 > 0 & fage1 > 0 & fage2 > 0 & fage3 > 0 & fage4 > 0 & fage5 > 0 & fage6 > 0 & fage7 > 0);
 
 % load the demographic file
